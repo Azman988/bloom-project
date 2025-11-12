@@ -1,0 +1,315 @@
+/****** HEADER STYLLE *******/
+.logo {
+    height: 37px;
+} 
+.nav-link {
+    transition: 0.3s ease;
+}
+.nav-link:hover {
+    color: #E64C09;
+}
+.nav-link.current {
+    color: #E64C09;
+}
+.signup_btn {
+    background-color: #E64C09;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px #f18759;
+}
+.signup_btn:hover {
+    color: #000;
+}
+
+/****** HEADER STYLE *******/
+
+/****** MAIN SECTION ONE STYLLE *******/
+
+.h4_span {
+    color: #E64C09;
+    font-style: italic;
+}
+
+.started_btn {
+   background-color: #E64C09;
+   color: #fff; 
+   box-shadow: 1px 3px 4px #f18759;
+   margin-right: 40px;
+   border-radius: 10px;
+}
+.started_btn:hover {
+    color: #000;
+}
+.explore_btn {
+    background: #f2f2f2;
+    position: relative;
+    border: none;
+    padding: 5px 5px 5px 20px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    transition: 0.3s ease;
+}
+.explore_btn:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+.explore_img_container {
+    position: absolute;
+    bottom: 10px;
+    left: -20px;
+}
+.explore_img {
+    width: 35px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 1px 3px 4px #f18759;
+}
+
+.sofa_sit_img {
+    width: 100%;
+}
+
+/****** MAIN SECTION ONE STYLLE *******/
+
+
+/********** SECTION TWO STYLE ************/
+
+.service_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.ads_container {
+    position: relative;
+    padding: 65px 10px 0 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.team_icon_div {
+    background-color: #FBD602;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.team_icon {
+    width: 70%;
+    margin-top: -10px;
+}
+.marketing_icon_div {
+    background-color: #104B04;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.marketing_icon {
+    width: 60%;
+    margin-top: -10px;
+}
+.campaign_icon_div {
+    background-color: #FB0202;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.campaign_icon {
+    width: 60%;
+    margin-top: -10px;
+}
+.others_icon_div {
+    background-color: #033E79;
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.others_icon {
+    width: 60%;
+    margin-top: -10px;
+}
+
+/************ SECTION TWO STYLLE *************/
+
+
+/*************** THIRD SECTION ****************/
+.cta_section {
+    background-color: #E64C0933;
+}
+.cta_img {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+/*********** LIST TYPE STYLE **********/
+.custom {
+  counter-reset: step; /* reset counter */
+  list-style: none;    /* remove default numbers */
+  padding: 0;
+}
+
+.custom li {
+  counter-increment: step;
+  position: relative;
+  margin: 30px 0;
+  padding-left: 50px;
+}
+
+.custom li::before {
+  content: counter(step) " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background: #E64C09;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+}
+/*********** END LIST TYPE STYLE **********/
+
+.read_more_btn {
+    border: 1px solid #E64C09;
+    color: #E64C09;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 1px 1px 2px #E64C09;
+    transition: 0.5s ease;
+}
+.read_more_btn:hover {
+    background-color: #E64C09;
+    color: white;
+}
+
+/*************** THIRD SECTION END ****************/
+
+
+/*************** FORTH SECTION ****************/
+
+.agency_img {
+    width: 100%;
+}
+
+/*************** FORTH SECTION END ****************/
+
+
+/*************** FIFTH SECTION ****************/
+
+.ads_container_2 {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+/*************** FIFTH SECTION END ****************/
+
+/*********** FOOTER ************/
+
+footer {
+    background-color: #E64C0933;
+    position: relative;
+    padding-top: 60px;
+}
+.footer_head {
+    background-color: #E64C09;
+    color: #fff;
+    padding: 15px 40px 15px 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact_btn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+.contact_btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.social_logo {
+    width: 40px;
+}
+
+.footer_bottom {
+    width: 100%;
+    content: "";
+    padding-top: 15px;
+    background-color: #E64C09;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin-top: 30px;
+}
+
+/*********** FOOTER END ************/
+
+/********** MEDIA QUERY ***********/
+
+@media screen and (max-width: 450px) {
+    .service_container {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .service_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/********** MEDIA QUERY ***********/
