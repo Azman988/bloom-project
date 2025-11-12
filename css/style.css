@@ -284,7 +284,7 @@ footer {
 .footer_bottom {
     width: 100%;
     content: "";
-    padding-top: 15px;
+    padding-top: 10px;
     background-color: #E64C09;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
